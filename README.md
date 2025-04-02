@@ -3,8 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/Gradio-FF9800?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Stable%20Diffusion-000000?style=for-the-badge&logo=stable-diffusion&logoColor=white">
-  <img src="https://img.shields.io/badge/Transformers-FFCC00?style=for-the-badge&logo=huggingface&logoColor=white">
   <img src="https://img.shields.io/badge/TinyLlama-008080?style=for-the-badge">
   <img src="https://img.shields.io/badge/OpenJourney-663399?style=for-the-badge">
   <img src="https://img.shields.io/badge/PG--13%20Filter-FF5733?style=for-the-badge">
