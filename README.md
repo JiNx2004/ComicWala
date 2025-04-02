@@ -38,7 +38,7 @@ git clone https://github.com/your-repo/comicwala.git](https://github.com/JiNx200
 ```
 2. Navigate to the project folder:
 ```sh
-git clone https://github.com/your-repo/comicwala.git](https://github.com/JiNx2004/ComicWala.git
+cd ComicWala
 ```
 3. Open index.html using live server to view the website or run the python file to install dependencies and generate comic strips
 
