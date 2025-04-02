@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComicWala</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="page1">
+            <div id="nav">
+                <div id="hamburger-menu">
+                    <i class="ri-menu-line"></i>
+                    <div id="dropdown-menu">
+                        <a href="#page7">Phi2+SD Turbo</a>
+                        <a href="#page8">TinyLlama+OpenJourney</a>
+                    </div>
+                </div>
+                <img src="assets/images/logo.png" alt="Logo">
+                <h5>ComicWala!</h5>
+            </div>
+            <div id="elems">
+                <div id="elem1">
+                    <div id="image-div">
+                        <img src="assets/images/super.jpg" alt="Superhero Chronicles">
+                    </div>
+                    <h4>Superhero Chronicles</h4>
+                    <p>A thrilling new adventure where heroes rise and villains fall.</p>
+                </div>
+                <div id="elem2">
+                    <h3>Generate AI-powered <br>comics instantly.</h3>
+                </div>
+                <div id="elem3">
+                    <div id="image-div">
+                        <img src="assets/images/scienceAI.jpg" alt="Science Explorers">
+                    </div>
+                    <h4>Science Explorers</h4>
+                    <p>Join a team of young scientists uncovering the greatest discoveries in history!</p>
+                </div>
+            </div>
+        </div>
+        <div id="page2">
+            <div id="page2-left">
+                <h2>Create <span>Comics!</span></h2>
+                <p>Describe your story idea, and <strong>ComicWala</strong> will generate a unique comic strip just for you.</p>
+            </div>
+            <div id="page2-right">
+                <img src="assets/WebP Images/how-to-write-an-article-comic-1643125348039-articleLarge.webp" alt="Bring Stories to Life">
+                <h1>Bring Stories to Life with AI!</h1>
+            </div>
+        </div>
+        <div id="page3">
+            <h1>Comics!</h1>
+            <img src="assets/WebP Images/phi2-sd2.webp" alt="Comics">
+        </div>
+        <div id="page7">
+            <div id="page7-left">
+                <p>Unleash your imagination—Phi-2 fuels the brains, SD Turbo paints the vision!!</p>
+                <p id="desc"><strong><a href="https://huggingface.co/microsoft/phi-2" target="_blank">Phi-2:</a></strong> A powerful language model for reasoning and text understanding.<br>
+                <strong><a href="https://huggingface.co/stabilityai/sd-turbo" target="_blank">SD-Turbo:</a></strong> A fast, optimized version of Stable Diffusion for high-quality images.</p>
+                <button class="btn" onclick="redirectToStreamlit1()">Click Here</button>
+            </div>
+            <div id="page7-right">
+                <img src="assets/images/evapo.jpg" alt="AI Model">
+            </div>
+        </div>
+        <div id="page8">
+            <div id="page8-left">
+                <img src="assets/images/cinderella.jpg" alt="TinyLlama">
+            </div>
+            <div id="page8-right">
+                <p>TinyLlama sparks the ideas, OpenJourney brings them to life—small but mighty, fast and visionary!</p>
+                <p id="desc"><strong><a href="https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0" target="_blank">TinyLlama:</a></strong> A compact yet powerful language model.<br>
+                <strong><a href="https://huggingface.co/prompthero/openjourney-v4" target="_blank">OpenJourney:</a></strong> A creative AI model fine-tuned for generating stunning images.</p>
+                <button class="btn" onclick="redirectToStreamlit2()">Click Here</button>
+            </div>
+        </div>
+        <div id="page9">
+            <h2>Get a Free Trial for Your Company!</h2>
+            <p>Fill in the details below, and we will contact you.</p>
+            <form id="trial-form" onsubmit="return submitForm()">
+                <label for="company-name">Company Name:</label>
+                <input type="text" id="company-name" name="company-name" required>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required>
+                <label for="description">Company Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+                <button type="submit" class="btn">Request Free Trial</button>
+            </form>
+        </div>
+        <div id="page5">
+            <h1>Turn your ideas into comics! <span>Try Now</span></h1>
+        </div>
+        <div id="page6">
+            <p>Made with ❤️ by ChaiFi - 2025</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
