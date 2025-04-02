@@ -17,16 +17,16 @@
 The platform allows users to input a story idea, and the AI generates a complete comic strip with dialogues, captions, and stunning visuals. A **PG-13 filter** ensures safe exposure for young audiences, and a **text-to-speech (TTS)** feature provides audio narration for the comics.  
 
 ## Features  
-**AI-Powered Script Generation** using **TinyLlama** and **Phi2**  
-**Automated Comic Illustration** via **Stable Diffusion Turbo** and **OpenJourney**  
+**AI-Powered Script Generation** using **TinyLlama**  
+**Automated Comic Illustration** via **OpenJourney**  
 **Gradio Interface** for seamless AI interaction  
 **Audio Narration** using **gTTX** for an immersive experience  
 **PG-13 Filter** for family-friendly content  
 
 ## Technologies Used  
 -  **Python** (Backend)  
--  **Stable Diffusion Turbo & OpenJourney** (Image Generation)  
--  **TinyLlama & Phi2** (Text Generation)  
+-  **OpenJourney** (Image Generation)  
+-  **TinyLlama** (Text Generation)  
 -  **Gradio** (Interactive Web Interface)  
 -  **gTTX** (Text-to-Speech for Audio Narration)  
 -  **PG-13 Filter** (Ensuring Safe Content)  
@@ -34,7 +34,7 @@ The platform allows users to input a story idea, and the AI generates a complete
 ## Installation  
 1. Clone the repository:  
 ```sh
-git clone https://github.com/your-repo/comicwala.git](https://github.com/JiNx2004/ComicWala.git
+git clone https://github.com/JiNx2004/ComicWala.git
 ```
 2. Navigate to the project folder:
 ```sh
